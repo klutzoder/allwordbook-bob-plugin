@@ -2,7 +2,7 @@
 
 version=${1#refs/tags/v}
 
-zip -r -j wordbook-bob-plugin-v$version.bobplugin src/*
+cd src && zip -r ../wordbook-bob-plugin-v$version.bobplugin . && cd ..
 
 sha256_wordbook=$(sha256sum wordbook-bob-plugin-v$version.bobplugin | cut -d ' ' -f 1)
 echo $sha256_wordbook
