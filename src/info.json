@@ -3,7 +3,7 @@
   "version": "0.2.3",
   "category": "translate",
   "name": "单词本插件",
-  "summary": "word book plugin, add word to youdao/eudic/shanday word book",
+  "summary": "word book plugin, add word to youdao/eudic/shanbay/momo word book",
   "icon": "",
   "author": "Eric_余浩",
   "homepage": "https://blog.yuhaowin.com/2021-01-03-wordbook-bob-plugin",
@@ -27,6 +27,10 @@
         {
           "title": "扇贝单词",
           "value": "3"
+        },
+        {
+          "title": "Momo背单词",
+          "value": "4"
         }
       ]
     },
@@ -59,11 +63,11 @@
     {
       "identifier": "wordbook_id",
       "type": "text",
-      "title": "欧路单词本 id",
-      "desc": "仅词典类型为「欧路词典」时需要填写。",
+      "title": "单词本 ID",
+      "desc": "「欧路词典」填写单词本 ID；「Momo背单词」填写云词本 ID（在墨墨 App「我的 > 更多设置 > 实验功能 > 开放 API」查看）。",
       "textConfig": {
         "type": "visible",
-        "placeholderText": "点击「验证」获取已有单词本 id，填入后再次点击「验证」确认是否正确。"
+        "placeholderText": "欧路词典点击「验证」获取；Momo 在 App 开放 API 页面查看"
       }
     }
   ]
