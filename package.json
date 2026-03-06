@@ -1,0 +1,22 @@
+{
+  "name": "wordbook-bob-plugin",
+  "version": "0.2.4",
+  "description": "Bob plugin for adding words to various dictionary wordbooks",
+  "type": "module",
+  "scripts": {
+    "build": "bun run build.ts",
+    "dev": "bun run build.ts --watch",
+    "typecheck": "bun x tsc --noEmit",
+    "release": "./release.sh"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.0.0"
+  },
+  "author": "Eric_余浩",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yuhaowin/wordbook-bob-plugin"
+  }
+}

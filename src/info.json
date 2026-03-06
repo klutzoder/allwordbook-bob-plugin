@@ -1,13 +1,13 @@
 {
-  "identifier": "wordbook-bob-plugin",
-  "version": "0.2.4",
+  "identifier": "allwordbook-bob-plugin",
+  "version": "0.1.0",
   "category": "translate",
   "name": "单词本插件",
   "summary": "word book plugin, add word to youdao/eudic/shanbay/momo word book",
   "icon": "",
-  "author": "Eric_余浩",
-  "homepage": "https://blog.yuhaowin.com/2021-01-03-wordbook-bob-plugin",
-  "appcast": "https://raw.githubusercontent.com/yuhaowin/wordbook-bob-plugin/main/appcast.json",
+  "author": "klutzoder",
+  "homepage": "https://github.com/klutzoder/allwordbook-bob-plugin",
+  "appcast": "https://raw.githubusercontent.com/klutzoder/allwordbook-bob-plugin/main/appcast.json",
   "minBobVersion": "1.12.0",
   "options": [
     {

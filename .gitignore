@@ -4,12 +4,16 @@
 /.pnp
 .pnp.js
 
+# Bun
+bun.lockb
+
 # testing
 /coverage
 
 # production
 /build
 /release
+/dist/src
 
 # misc
 .DS_Store
